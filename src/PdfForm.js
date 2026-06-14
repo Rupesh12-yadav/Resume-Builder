@@ -39,17 +39,6 @@ const CODING_PLATFORMS = [
   { platform: "Codeforces",    icon: "CF", ph: "https://codeforces.com/profile/yourname",      bg: "#1992D4", fg: "#fff" },
 ];
 
-const SKILL_ICONS = [
-  { emoji: "💬", bg: "#EFF6FF", color: "#2563EB" },
-  { emoji: "🎨", bg: "#FFF7ED", color: "#EA580C" },
-  { emoji: "⚙️", bg: "#F0FDF4", color: "#16A34A" },
-  { emoji: "🗄️", bg: "#FAF5FF", color: "#9333EA" },
-  { emoji: "🔧", bg: "#FEF2F2", color: "#DC2626" },
-  { emoji: "☁️", bg: "#ECFEFF", color: "#0891B2" },
-  { emoji: "📱", bg: "#FFF1F2", color: "#E11D48" },
-  { emoji: "🧠", bg: "#FEFCE8", color: "#CA8A04" },
-];
-
 export default function PdfForm() {
   const [active, setActive]               = useState("Header");
   const [sidebarOpen, setSidebarOpen]     = useState(false);
